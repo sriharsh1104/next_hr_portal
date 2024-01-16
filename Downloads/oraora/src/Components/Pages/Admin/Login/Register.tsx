@@ -47,7 +47,7 @@ const Register = () => {
         confirmPassword: formik.values.confirmPassword.trim(),
 
       });
-      console.log("first212", result);
+      console.log("3213131", result);
 
       if (result?.status === 200) {
         dispatch(setCompanyId(result?.data?.companyId));
